@@ -8,7 +8,9 @@ public class Room{
     // |    | In C++, this would be a pointer* to the Owner object in the heap,
     // |    | but Java runs on a Virtual Machine, so having a pointer to a location
     // |    | in memory is unnecessary, so Java uses what they call "references",
-    // |    | which are different from C++ "references" in that 
+    // |    | which are different from C++ "references" in that they are more akin
+	// |    | to handles. Note that once the handle points to null, garbage collection
+	// |    | kicks in to free memory.
     // | private allows me to impose certain access restrictions on myself (more so
     // | than the program) or anyone else who I want using my code, so that I limit
     // | the points where my code can break. E.g. restricting this now drastically

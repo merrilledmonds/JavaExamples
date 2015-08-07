@@ -13,6 +13,9 @@ public class HelloApartment{
 		myRoom.getOwner().setName("John Doe");
 		myRoom.getOwner().setPhone("2125551234");
 		System.out.println("Owner is currently: "+myRoom.getOwner());
+		myRoom.setWidth(200);
+		System.out.println(myRoom);
+		System.out.println();
 		
 		// Release myRoom for garbage collection
 		// I'm used to manual memory management from C++, so not entirely necessary for Java
